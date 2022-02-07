@@ -1,0 +1,2 @@
+Git é um sistema de versionamento de código. Muito utilizado no ramo de programação, mas pode ser utilizado para registrar
+o histórico de alterações de qualquer tipo de arquivo.
