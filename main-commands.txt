@@ -1,0 +1,47 @@
+1- git add <filename> = adiciona arquivo para staged area
+
+2- git status = mostra status do git (alterações feitas, monitoramento, etc.)
+
+3- git commit -m 'sua mensagem' = insere uma mensagem e commita suas alterações
+
+4- git log = mostra histórico dos commits do projeto
+
+5- git log --pretty=oneline = histórico exibido por linha (visualização mais prática)
+
+6- git log --stat = mostra alguns status nos logs (changes, insertions, deletions)
+
+7- git diff <optional filename> = mostra alterações feitas no arquivo. Compara arquivo do workdir com head
+
+8- git diff --name-only = mostra apenas arquivos que têm diferenças (que foram modificados)
+
+9- git add . = põe em staged todos os arquivos modificados/não monitorados do projeto
+
+10- git commit --amend = permite alterar último commit realizado
+
+11- git reset HEAD <filename> = remove arquivo do staged
+
+12- git checkout --<filename> = retorna à versão anterior à que foi salva do arquivo
+
+13- git branch = exibe as branchs existentes no projeto
+
+14- git branch <branch name> = cria nova branch
+
+15- git checkout <branch name> = muda para branch passada
+
+16- git branch -d <branch name> = delete uma branch que já foi mergeada (sair da branch pra deletar)
+
+17- git branch -D <branch name> = delete uma branch que ainda não foi mergeada (sair da branch para deletar)
+
+18- git chekout -b <branch name> = cria uma nova branch e já muda pra ela (sem necessitar do checkout manual)
+
+19- git merge <branch name> = adiciona na HEAD (branch que você se encontra) os arquivos contidos na branch passada
+
+20- git clone <HTTPS> = clona repositório do github (ou outra rede git)
+
+21- git remote add origin <HTTPS> = linka repositório local ao repositório remoto
+
+22- git push origin master = sobe código para repositório no github
+
+23- git pull origin master = baixa códigos do repositório no github
+
+24- .gitignore = arquivo no qual se insere <filenames> a serem ignoradas pelo git (não serão monitoradas)
